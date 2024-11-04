@@ -1,0 +1,100 @@
+.banner {
+  background: url("foto\ rumah.jpg")
+    no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: #080808;
+}
+
+.lingkaran {
+  display: inline-block;
+  border-radius: 50%;
+  width: 150px;
+  margin: auto;
+  height: 150px;
+  color: #fff;
+  background-color: #dc3545;
+}
+
+.lingkaran i {
+  position: relative;
+  top: 30px;
+}
+
+.crop-img {
+  object-fit: cover;
+}
+
+.tim img {
+  width: 250px;
+  border: 10px solid #cccccc;
+}
+
+a.social {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #333;
+  line-height: 40px;
+}
+
+.client img {
+  height: auto;
+  max-height: 50px;
+}
+
+.kontak {
+  background: url("https://wallpaperaccess.com/full/1867010.jpg") no-repeat
+    center center;
+  background-size: cover;
+  padding-bottom: 20%;
+  padding-top: 20%;
+  color: #fff;
+}
+
+.music-player {
+  text-align: center;
+  color: #007BFF; 
+  cursor: pointer; 
+}
+
+.music-player i {
+  font-size: 70px; 
+  margin-right: 10px; 
+  margin-top: 10px; 
+}
+
+#song-duration {
+  font-size: 16px;
+  color: #333; 
+  margin-top: 5px; 
+}
+
+.own {
+ color :#007BFF;
+ position: fixed;
+ right: 0;
+ bottom: 0;
+ display: flex;
+ align-items: center;
+ padding: 10px;
+}
+
+.own h3 {
+  margin: 0;
+  margin-right: 5px;
+}
+
+.own i {
+  font-size: 24px;
+}
+
+.img-circle {
+  width: 180px; /* Adjust the size as needed */
+  height: 150px; /* Adjust the size as needed */
+  border-radius: 50%;
+  object-fit: cover; /* Ensures the image covers the circle */
+}
